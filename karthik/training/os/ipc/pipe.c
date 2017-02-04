@@ -7,7 +7,7 @@
 
 int main()
 {
-	int pipefd[2];
+	int pipefd[2]; //declaration
 	pid_t cpid;
 	char buf;
 
