@@ -1,0 +1,63 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ST	ds/linked.c	/^}ST;$/;"	t	typeref:struct:link	file:
+add_begin	ds/linked.c	/^void add_begin(ST **ptr)$/;"	f
+binary_search	send/c_exp_8.c	/^int* binary_search(int a[],int key,int first,int last)$/;"	f
+comp	send/c_exp_5.c	168;"	d	file:
+data	ds/linked.c	/^char data;$/;"	m	struct:link	file:
+dec	send/c_exp_5.c	240;"	d	file:
+inc	send/c_exp_5.c	236;"	d	file:
+insertstr	send/c_exp_6.c	/^void insertstr(char *p,char *q,int n)$/;"	f
+link	ds/linked.c	/^typedef struct link$/;"	s	file:
+main	ass1/c_prgm_1.c	/^int main()$/;"	f
+main	ass1/c_prgm_2.c	/^int main()$/;"	f
+main	cmpy/programs/exp_5.c	/^int main(int argc,char *argv[])$/;"	f
+main	cmpy/strings/exp_1.c	/^int main()$/;"	f
+main	cmpy/strings/exp_3.c	/^int main()$/;"	f
+main	ds/linked.c	/^int main()$/;"	f
+main	find_odd_bit.c	/^int main()$/;"	f
+main	p.c	/^main()$/;"	f
+main	p1.c	/^int main()$/;"	f
+main	p2.c	/^int main()$/;"	f
+main	pa.c	/^int main()$/;"	f
+main	pre_prop.c	/^int main(int argc,char **argv)$/;"	f
+main	quick.c	/^int main()$/;"	f
+main	send/c_exp_1.c	/^int main()$/;"	f
+main	send/c_exp_2.c	/^int main()$/;"	f
+main	send/c_exp_3.c	/^int main()$/;"	f
+main	send/c_exp_4.c	/^int main()$/;"	f
+main	send/c_exp_5.c	/^main()$/;"	f
+main	send/c_exp_6.c	/^int main()$/;"	f
+main	send/c_exp_7.c	/^int main()$/;"	f
+main	send/c_exp_8.c	/^int main()$/;"	f
+main	send/exp_2.c	/^int main()$/;"	f
+main	send/exp_3.c	/^int main()$/;"	f
+main	send/p1.c	/^main()$/;"	f
+main	send/p2.c	/^main()$/;"	f
+main	send/pre_prop.c	/^int main(int argc,char **argv)$/;"	f
+main	send/tab.c	/^int main(int argc,char *argv[])$/;"	f
+main	struc.c	/^int main()$/;"	f
+marks	struc.c	/^	float marks;$/;"	m	struct:student	file:
+my_strchr	ass1/c_prgm_2.c	/^char *my_strchr(char *p, char ch)$/;"	f
+my_strdup	send/c_exp_4.c	/^char *my_strdup(char *p)$/;"	f
+my_strstr	send/c_exp_3.c	/^char *my_strstr(char *p,char *q)$/;"	f
+myatoi	send/c_exp_2.c	/^int myatoi(char *p)$/;"	f
+mymemset	cmpy/strings/exp_3.c	/^void *mymemset(void *p,int c,int n)$/;"	f
+mystrstr	cmpy/strings/exp_1.c	/^char *mystrstr(char *p,char *q)$/;"	f
+name	struc.c	/^	char name[20];$/;"	m	struct:student	file:
+next	ds/linked.c	/^struct link *next;$/;"	m	struct:link	typeref:struct:link::link	file:
+pi	p2.c	3;"	d	file:
+print	ds/linked.c	/^void print(ST *ptr)$/;"	f
+quicksort	quick.c	/^void quicksort(int arr[],int low,int high)$/;"	f
+replcwrd	send/exp_3.c	/^int replcwrd(char *p,char *q,char *r)$/;"	f
+revstring	send/exp_2.c	/^char *revstring(char *p)$/;"	f
+revwords	send/exp_2.c	/^char *revwords(char *p)$/;"	f
+rightrot	send/c_exp_7.c	/^int rightrot(unsigned int num,int s)$/;"	f
+roll	struc.c	/^	int roll;$/;"	m	struct:student	file:
+sort	ds/linked.c	/^void sort(ST *ptr)$/;"	f
+squeeze	ass1/c_prgm_1.c	/^void squeeze(char p[], char q)$/;"	f
+student	struc.c	/^struct student$/;"	s	file:
