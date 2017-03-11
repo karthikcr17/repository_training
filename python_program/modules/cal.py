@@ -15,13 +15,13 @@ def mul(num1,num2):
 def div(num1,num2):
 	'''division two number 
 			div(num1,num2)--->return float '''
-	return num1 / num2
+	return num1 // num2
 
-def sin(rad):
-	'''Give thr degress to radians
+def sin(red):
+	'''return the sine value given radians
 			sin(rad) ----->return float '''
 	return math.sin(math.radians(red))
-def cos(rad):
+def cos(red):
 	'''Give value cos
 			sin(rad) ----->return float '''
 	return math.cos(math.radians(red))
