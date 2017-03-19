@@ -1,0 +1,18 @@
+1.OSI reference model, tcp/ip(In depth. How ecryption and decription are done at each layer)
+2.IPV4  and its ranges(class a, classb, classc, d,e)
+3.Public and private addresses range, various types of networks(Lan, wan, mesh, star, metro)
+4.Briefly about all protocols in each layer of osi reference layer
+5.In depth knowledge on DHCP(dora process), DNS, ARP, RARP, ICMP, PING, TRACERUTE.
+6.All networking devices and in which which which device to use, deiffernce between among devices
+7.in depth working of switch
+8.what is NAT and PAT
+9.About MAC, port number
+10.What is encryption, decryption, fragmentation.
+11.what is unicast, multicast, broadcast, loopback address
+12.Explain what happens internally  if you give www.facebook.com in url or ping www.facebok.com
+   explain w.r.to packet flow
+13.3 way and 4 way hand shaking mechanism
+14.headers TCP, UDP, ETHERNET, ARP, ICMP, IPV4 (in depth knowledge on all fields)
+16.subnet,supernet,classfull,classless.
+15.Wireshark
+(Text book ferozen)

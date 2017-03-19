@@ -1,0 +1,133 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BIT_TS	set_bit.c	5;"	d	file:
+N	clear_left_most_sbit.c	/^int N = sizeof(void*) * 8;$/;"	v
+N	cnt_lead_clear_bits.c	/^int N = sizeof(int) * 8; \/\/it stores the size of integer$/;"	v
+N	cnt_lead_set_bits.c	/^int N = sizeof(int) * 8; \/\/it stores the size of integer$/;"	v
+N	cnt_trailing_clear_bits.c	/^int N = sizeof(int) * 8; \/\/it stores the size of integer$/;"	v
+N	cnt_trailing_set_bits.c	/^int N = sizeof(int) * 8; \/\/it stores the size of integer$/;"	v
+N	count_clear_bits.c	/^int N = sizeof(void*) * 8; \/\/it stores the size of compiler $/;"	v
+N	count_set_bits.c	/^int N = sizeof(void*) * 8; \/\/it stores the size of compiler $/;"	v
+N	left_rotate_bit.c	/^int N = sizeof(int) * 8; \/\/ stored the size of bits in integer $/;"	v
+N	left_rotate_n_bits.c	/^int N = sizeof(void*) * 8; \/\/ find the number of bit processor$/;"	v
+N	max2num.c	/^int N = sizeof(int) * 8; \/\/ it can stored the number of bits in size of int$/;"	v
+N	right_rotate_bit.c	/^int N = sizeof(int) * 8; \/\/ find the size of integer$/;"	v
+N	right_rotate_n_bit.c	/^int N = sizeof(int) * 8; \/\/ find the size of integer$/;"	v
+N	set_left_most_cbit.c	/^int N = sizeof(void*) * 8;$/;"	v
+bit_copy	copy_bits.c	/^void bit_copy(int snum, int dnum, int num_bits,$/;"	f
+bit_swap	swapbit_num.c	/^int bit_swap(int n, int s, int d) \/\/it function swap two bits in given number$/;"	f
+bit_swap2	swapbit_num2.c	/^void bit_swap2(int snum, int dnum, int s, int d)$/;"	f
+clear_bits_s_d	set_bit_s_d.c	7;"	d	file:
+clear_r_most_sbit	clear_righ_most_sbit.c	5;"	d	file:
+clr_left_most_set	clear_left_most_sbit.c	7;"	d	file:
+cnt_leading_clear_bits	cnt_lead_clear_bits.c	/^int cnt_leading_clear_bits(int num) \/* this function counts leading clear$/;"	f
+cnt_leading_set_bits	cnt_lead_set_bits.c	/^int cnt_leading_set_bits(int num) \/* this function counts leading set$/;"	f
+cnt_trailing_clear_bits	cnt_trailing_clear_bits.c	/^int cnt_trailing_clear_bits(int num) \/* this function counts trailing end clear$/;"	f
+cnt_trailing_set_bits	cnt_trailing_set_bits.c	/^int cnt_trailing_set_bits(int num) \/* this function counts trailing end set$/;"	f
+count	cnt_lead_clear_bits.c	/^int count = 0; \/\/ it stores the number of leading set bits$/;"	v
+count	cnt_lead_set_bits.c	/^int count = 0; \/\/ it stores the number of leading set bits$/;"	v
+count	cnt_trailing_clear_bits.c	/^int count = 0; \/\/ it stores the number of trailing end clear bits$/;"	v
+count	cnt_trailing_set_bits.c	/^int count = 0; \/\/ it stores the number of trailing end set bits$/;"	v
+count	count_clear_bits.c	/^int count = 0; \/\/it store the value of number of clear bits$/;"	v
+count	count_set_bits.c	/^int count = 0; \/\/it store the value of number of set bits$/;"	v
+count_bit_clear	count_clear_bits.c	/^int count_bit_clear(int num)$/;"	f
+count_bit_set	count_set_bits.c	/^int count_bit_set(int num)$/;"	f
+d	clear_bit_s_d.c	/^int d;   \/\/ stores the destination position$/;"	v
+d	set_bit_s_d.c	/^int d;   \/\/ stores the destination position$/;"	v
+d	toggle_bits_spos_dpos.c	/^int d;   \/\/ stores the destination position$/;"	v
+d_pos	copy_bits.c	/^int d_pos; \/\/ destination position to paste$/;"	v
+dbit	swapbit_num.c	/^int sbit, dbit; \/\/ source and destination bits where you can swap$/;"	v
+dbit	swapbit_num2.c	/^int sbit, dbit;   \/\/source and destination bits where you can swap$/;"	v
+dnum	copy_bits.c	/^int dnum; \/\/destination number$/;"	v
+dnum	swapbit_num2.c	/^int snum, dnum;   \/\/source and destination number$/;"	v
+even_bit_toggle	tog_eve_odd.c	/^int even_bit_toggle(int num)$/;"	f
+getb	getbits.c	/^int getb; \/\/stored get bits$/;"	v
+getbits	getbits.c	3;"	d	file:
+invertbits	invertbits.c	/^int invertbits(int numx, int pos, int no) \/* inverting no bits from position*\/ $/;"	f
+left_roate_bits	left_rotate_bit.c	/^unsigned int left_roate_bits(unsigned int num)$/;"	f
+left_roate_n_bits	left_rotate_n_bits.c	/^unsigned int left_roate_n_bits(unsigned int num, int n)$/;"	f
+main	clear_bit_s_d.c	/^int main()$/;"	f
+main	clear_left_most_sbit.c	/^int main()$/;"	f
+main	clear_righ_most_sbit.c	/^int main()$/;"	f
+main	cnt_lead_clear_bits.c	/^int main()$/;"	f
+main	cnt_lead_set_bits.c	/^int main()$/;"	f
+main	cnt_trailing_clear_bits.c	/^int main()$/;"	f
+main	cnt_trailing_set_bits.c	/^int main()$/;"	f
+main	copy_bits.c	/^int main()$/;"	f
+main	count_clear_bits.c	/^int main()$/;"	f
+main	count_set_bits.c	/^int main()$/;"	f
+main	getbits.c	/^int main()$/;"	f
+main	invertbits.c	/^int main()$/;"	f
+main	left_rotate_bit.c	/^int main()$/;"	f
+main	left_rotate_n_bits.c	/^int main()$/;"	f
+main	max2num.c	/^int main()$/;"	f
+main	right_rotate_bit.c	/^int main()$/;"	f
+main	right_rotate_n_bit.c	/^int main()$/;"	f
+main	set_bit.c	/^int main()$/;"	f
+main	set_bit_s_d.c	/^int main()$/;"	f
+main	set_left_most_cbit.c	/^int main()$/;"	f
+main	set_righ_most_cbit.c	/^int main()$/;"	f
+main	stbits.c	/^int main()$/;"	f
+main	swapbit_num.c	/^int main()$/;"	f
+main	swapbit_num2.c	/^int main()$/;"	f
+main	tog_eve_odd.c	/^int main() $/;"	f
+main	toggle_bits_spos_dpos.c	/^int main()$/;"	f
+max2num	max2num.c	7;"	d	file:
+n	getbits.c	/^int n; \/\/stored number of bits to get$/;"	v
+n	left_rotate_n_bits.c	/^int n; \/\/no.of rotations$/;"	v
+n	right_rotate_n_bit.c	/^int n; \/\/ stored the number of rotations you do$/;"	v
+no	invertbits.c	/^int no;   \/\/ stored a no.of bits to invert$/;"	v
+no	stbits.c	/^int no;   \/\/ stored a no.of bits to set$/;"	v
+num	clear_bit_s_d.c	/^int num; \/\/ it stores the given number$/;"	v
+num	clear_left_most_sbit.c	/^int num; \/\/stored the given number$/;"	v
+num	clear_righ_most_sbit.c	/^int num; \/\/stored given value$/;"	v
+num	cnt_lead_clear_bits.c	/^int num; \/\/ it stored value number you have to give$/;"	v
+num	cnt_lead_set_bits.c	/^int num; \/\/ it stored value number you have to give$/;"	v
+num	cnt_trailing_clear_bits.c	/^int num; \/\/ it stored value number you have to give$/;"	v
+num	cnt_trailing_set_bits.c	/^int num; \/\/ it stored value number you have to give$/;"	v
+num	count_clear_bits.c	/^int num; \/\/it stored the number you can give$/;"	v
+num	count_set_bits.c	/^int num; \/\/it stored the number you can give$/;"	v
+num	getbits.c	/^unsigned int num; \/\/stored the given number$/;"	v
+num	left_rotate_bit.c	/^unsigned int num; \/\/stored the given number$/;"	v
+num	left_rotate_n_bits.c	/^unsigned int num; $/;"	v
+num	right_rotate_bit.c	/^unsigned int num; \/\/ it stored the value of number you can give$/;"	v
+num	right_rotate_n_bit.c	/^unsigned int num; \/\/ it stored the value of number you can give$/;"	v
+num	set_bit.c	/^int num; $/;"	v
+num	set_bit_s_d.c	/^int num; \/\/ it stores the given number$/;"	v
+num	set_left_most_cbit.c	/^int num; \/\/stored the given number$/;"	v
+num	set_righ_most_cbit.c	/^int num; \/\/stored given value$/;"	v
+num	swapbit_num.c	/^int num;    \/\/numer you can give $/;"	v
+num	tog_eve_odd.c	/^int num;$/;"	v
+num	toggle_bits_spos_dpos.c	/^int num; \/\/ it stores the given number$/;"	v
+num1	max2num.c	/^int num1; \/\/ it stores the num1 value you given$/;"	v
+num2	max2num.c	/^int num2; \/\/ it stores the num2 value you given$/;"	v
+num_bits	copy_bits.c	/^int num_bits; \/\/number of bits copying$/;"	v
+numx	invertbits.c	/^int numx; \/\/ stored a number you have to given$/;"	v
+numx	stbits.c	/^int numx; \/\/ stored a destination return number$/;"	v
+numy	stbits.c	/^int numy; \/\/ In this stored a given number$/;"	v
+odd_bit_toggle	tog_eve_odd.c	/^int odd_bit_toggle(int num)$/;"	f
+p	getbits.c	/^int p; \/\/stored positon of bit in a number to you want$/;"	v
+pos	invertbits.c	/^int pos;  \/\/ stored position to set$/;"	v
+pos	set_bit.c	/^int pos; \/\/position to set in number$/;"	v
+pos	stbits.c	/^int pos;  \/\/ stored position to set$/;"	v
+right_rotate_bit	right_rotate_bit.c	/^unsigned int right_rotate_bit(unsigned int num) $/;"	f
+right_rotate_n_bits	right_rotate_n_bit.c	/^unsigned int right_rotate_n_bits(unsigned int num, int n) $/;"	f
+s	clear_bit_s_d.c	/^int s;   \/\/ stores the source position$/;"	v
+s	set_bit_s_d.c	/^int s;   \/\/ stores the source position$/;"	v
+s	toggle_bits_spos_dpos.c	/^int s;   \/\/ stores the source position$/;"	v
+s_pos	copy_bits.c	/^int s_pos; \/\/source position from copy$/;"	v
+sbit	swapbit_num.c	/^int sbit, dbit; \/\/ source and destination bits where you can swap$/;"	v
+sbit	swapbit_num2.c	/^int sbit, dbit;   \/\/source and destination bits where you can swap$/;"	v
+set_bits_s_d	clear_bit_s_d.c	7;"	d	file:
+set_left_most_cbit	set_left_most_cbit.c	6;"	d	file:
+set_r_most_cbit	set_righ_most_cbit.c	5;"	d	file:
+setbits	stbits.c	/^int setbits(int numx, int pos, int no, int numy)$/;"	f
+show	show.c	/^int show(int num)$/;"	f
+snum	copy_bits.c	/^int snum; \/\/source number$/;"	v
+snum	swapbit_num2.c	/^int snum, dnum;   \/\/source and destination number$/;"	v
+toggle_bits_s_d	toggle_bits_spos_dpos.c	7;"	d	file:
+valid	valid.c	/^extern int valid(char a[])$/;"	f

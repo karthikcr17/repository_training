@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+INVALID	valid.c	8;"	d	file:
+MAX	valid.c	7;"	d	file:
+creat_node	creat_node.c	/^void creat_node(ST **head)$/;"	f
+del_after_at_number	del_after_at_number.c	/^void del_after_at_number(ST **head)$/;"	f
+del_after_at_pos	del_after_at_pos.c	/^void del_after_at_pos(ST **head)$/;"	f
+del_at_end	del_At_end.c	/^void del_at_end(ST **head)$/;"	f
+del_at_middle	del_at_middle.c	/^void del_at_middle(ST **head)$/;"	f
+del_at_penultimate_node	del_at_penultimate_node.c	/^void del_at_penultimate_node(ST **head)$/;"	f
+del_at_pos	del_at_pos.c	/^void del_at_pos(ST **head)$/;"	f
+del_before_at_number	del_befre_at_number.c	/^void del_before_at_number(ST **head)$/;"	f
+del_befre_at_pos	del_befre_at_pos.c	/^void del_befre_at_pos(ST **head)$/;"	f
+del_begin	del_begin.c	/^void del_begin(ST **head)$/;"	f
+deletion	deletion.c	/^void deletion(ST **head)$/;"	f
+display	display.c	/^void display(ST **head)$/;"	f
+inser_after_at_number	inser_after_at_number.c	/^void inser_after_at_number(ST **head)$/;"	f
+inser_after_at_pos	inser_aftr_at_pos.c	/^void inser_after_at_pos(ST **head)$/;"	f
+inser_at_end	inser_At_end.c	/^void inser_at_end(ST **head)$/;"	f
+inser_at_middle	inser_at_middle.c	/^void inser_at_middle(ST **head)$/;"	f
+inser_at_penultimate_node	inser_at_penultimate_node.c	/^void inser_at_penultimate_node(ST **head)$/;"	f
+inser_at_pos	inser_at_pos.c	/^void inser_at_pos(ST **head)$/;"	f
+inser_before_at_number	inser_befre_at_number.c	/^void inser_before_at_number(ST **head)$/;"	f
+inser_befre_at_pos	inser_befre_at_pos.c	/^void inser_befre_at_pos(ST **head)$/;"	f
+inser_begin	inser_begin.c	/^ST *inser_begin(ST *head)$/;"	f
+insertion	insertion.c	/^void insertion(ST **head)$/;"	f
+main	main.c	/^int main()$/;"	f
+valid	valid.c	/^int valid(void)$/;"	f
