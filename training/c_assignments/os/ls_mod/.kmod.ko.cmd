@@ -1,0 +1,1 @@
+cmd_/home/karthik/training/c_assignments/os/ls_mod/kmod.ko := ld -r -m elf_i386 -T ../scripts/module-common.lds --build-id  -o /home/karthik/training/c_assignments/os/ls_mod/kmod.ko /home/karthik/training/c_assignments/os/ls_mod/kmod.o /home/karthik/training/c_assignments/os/ls_mod/kmod.mod.o ;  true

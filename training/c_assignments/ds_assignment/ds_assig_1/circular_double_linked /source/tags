@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+creat_node	creat_node.c	/^void creat_node(ST **head)$/;"	f
+del_at_end	del_At_end.c	/^void del_at_end(ST **head)$/;"	f
+del_at_middle	del_at_middle.c	/^int del_at_middle(ST **head)$/;"	f
+del_begin	del_begin.c	/^void del_begin(ST **head)$/;"	f
+deletion	deletion.c	/^int deletion(ST **head)$/;"	f
+display	display.c	/^void display(ST **head)$/;"	f
+inser_at_end	inser_At_end.c	/^void inser_at_end(ST **head)$/;"	f
+inser_at_middle	inser_at_middle.c	/^int inser_at_middle(ST **head)$/;"	f
+inser_begin	inser_begin.c	/^void inser_begin(ST **head)$/;"	f
+insertion	insertion.c	/^int insertion(ST **head)$/;"	f
+main	main.c	/^int main()$/;"	f

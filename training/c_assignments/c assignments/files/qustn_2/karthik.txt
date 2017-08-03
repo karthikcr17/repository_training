@@ -1,0 +1,10 @@
+it breaks the connection between the file pointer and the external name
+it
+it
+it
+
+
+
+
+
+that was the established by fopen.

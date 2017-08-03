@@ -1,0 +1,54 @@
+/* this program on calculator given inputs from commandline arguments */
+
+#include "header.h"
+
+int main(int argc, char *argv[])
+{
+	int num1;
+	int num2;
+	float result;
+	
+	if(argc != 4){
+	printf("enter the correct no.of arguments\n");
+	exit(1);
+	}
+
+	if(strcmp(argv[1], "add") == 0)
+		 fun = &add;	
+	else if(strcmp(argv[1], "sub") == 0)
+		fun = &sub;	
+	else if(strcmp(argv[1], "mul") == 0)
+		 fun = &mul;	
+	else if(strcmp(argv[1], "division") == 0)
+		fun = &division;	
+	else {
+		printf("entre the correct operator\n");
+		exit(1);
+	}
+
+	num1 = myatoi(argv[2]);
+	num2 = myatoi(argv[3]);
+
+	printf("%d %d\n",num1,num2);
+	
+	(*fun)(num1, num2);
+
+		return 0;
+}
+
+void add(int x, int y) 
+{
+	printf("addition of two numbers = %d\n",(x + y));
+}
+void sub(int x, int y) 
+{
+	printf("substraction of two numbers = %d\n",(x - y));
+}
+void mul(int x, int y) 
+{
+	printf("multiplication of two numbers = %d\n",(x * y));
+}
+void division(int x, int y) 
+{
+	printf("division of two numbers = %f\n",(float)((float)x / (float)y));
+}

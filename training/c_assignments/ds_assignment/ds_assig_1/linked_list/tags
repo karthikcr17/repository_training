@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+HEADER_H	header/header.h	2;"	d
+MAX	header/header.h	8;"	d
+NODE	header/header.h	/^typedef struct NODE                                                             $/;"	s
+ST	header/header.h	/^}ST;     $/;"	t	typeref:struct:NODE
+creat_node	source/creat_node.c	/^void creat_node(ST **head)$/;"	f
+data	header/header.h	/^    int data;                                                                  $/;"	m	struct:NODE
+del_after_at_number	source/del_after_at_number.c	/^int del_after_at_number(ST **head)$/;"	f
+del_after_at_pos	source/del_after_at_pos.c	/^int del_after_at_pos(ST **head)$/;"	f
+del_at_end	source/del_At_end.c	/^void del_at_end(ST **head)$/;"	f
+del_at_middle	source/del_at_middle.c	/^int del_at_middle(ST **head)$/;"	f
+del_at_penultimate_node	source/del_at_penultimate_node.c	/^int del_at_penultimate_node(ST **head)$/;"	f
+del_at_pos	source/del_at_pos.c	/^int del_at_pos(ST **head)$/;"	f
+del_before_at_number	source/del_befre_at_number.c	/^int del_before_at_number(ST **head)$/;"	f
+del_befre_at_pos	source/del_befre_at_pos.c	/^int del_befre_at_pos(ST **head)$/;"	f
+del_begin	source/del_begin.c	/^void del_begin(ST **head)$/;"	f
+deletion	source/deletion.c	/^void deletion(ST **head)$/;"	f
+display	source/display.c	/^void display(ST **head)$/;"	f
+head	header/header.h	/^ST *head; $/;"	v
+inser_after_at_number	source/inser_after_at_number.c	/^int inser_after_at_number(ST **head)$/;"	f
+inser_after_at_pos	source/inser_aftr_at_pos.c	/^int inser_after_at_pos(ST **head)$/;"	f
+inser_at_end	source/inser_At_end.c	/^void inser_at_end(ST **head)$/;"	f
+inser_at_middle	source/inser_at_middle.c	/^int inser_at_middle(ST **head)$/;"	f
+inser_at_penultimate_node	source/inser_at_penultimate_node.c	/^int inser_at_penultimate_node(ST **head)$/;"	f
+inser_at_pos	source/inser_at_pos.c	/^int inser_at_pos(ST **head)$/;"	f
+inser_before_at_number	source/inser_befre_at_number.c	/^int inser_before_at_number(ST **head)$/;"	f
+inser_befre_at_pos	source/inser_befre_at_pos.c	/^int inser_befre_at_pos(ST **head)$/;"	f
+inser_begin	source/inser_begin.c	/^void inser_begin(ST **head)$/;"	f
+insertion	source/insertion.c	/^void insertion(ST **head)$/;"	f
+main	source/main.c	/^int main()$/;"	f
+next	header/header.h	/^    struct NODE *next;                                                          $/;"	m	struct:NODE	typeref:struct:NODE::NODE
+nodes	header/header.h	/^int nodes;$/;"	v
