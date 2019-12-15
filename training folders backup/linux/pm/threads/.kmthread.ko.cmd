@@ -1,0 +1,1 @@
+cmd_/home/durga/training/linux/assignments/pm/threads/kmthread.ko := ld -r -m elf_i386 -T ../scripts/module-common.lds --build-id  -o /home/durga/training/linux/assignments/pm/threads/kmthread.ko /home/durga/training/linux/assignments/pm/threads/kmthread.o /home/durga/training/linux/assignments/pm/threads/kmthread.mod.o

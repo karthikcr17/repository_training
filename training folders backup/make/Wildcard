@@ -1,0 +1,7 @@
+source = hi
+source = $(wildcard *.c)
+object = $(patsubst %.c,%.o,$(source))
+
+#object = $(wildcard *.o)
+app: $(object)
+	gcc -o $@ $^

@@ -1,0 +1,1 @@
+cmd_/home/durga/cr16_kovvuri/linux/pm/cow/cowmd.ko := ld -r -m elf_i386 -T ../scripts/module-common.lds --build-id  -o /home/durga/cr16_kovvuri/linux/pm/cow/cowmd.ko /home/durga/cr16_kovvuri/linux/pm/cow/cowmd.o /home/durga/cr16_kovvuri/linux/pm/cow/cowmd.mod.o

@@ -1,0 +1,1 @@
+cmd_/home/durga/Training/linux/basic_kernel/kmod.ko := ld -r -m elf_i386 -T ../scripts/module-common.lds --build-id  -o /home/durga/Training/linux/basic_kernel/kmod.ko /home/durga/Training/linux/basic_kernel/kmod.o /home/durga/Training/linux/basic_kernel/kmod.mod.o

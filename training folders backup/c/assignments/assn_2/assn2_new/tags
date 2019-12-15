@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MAX	SOURCE/menu.c	5;"	d	file:
+MYSTRING_H	HEADER/mystring.h	4;"	d
+chr_add_instr	SOURCE/chr_add_instr.c	/^char* chr_add_instr (char *str, char c)$/;"	f
+insertchar	SOURCE/insertchar.c	/^char *insertchar(char *str, char ch, int pos)$/;"	f
+main	SOURCE/menu.c	/^int main (void)$/;"	f
+my_strstr	SOURCE/my_strstr.c	/^char* my_strstr(char *p, char *q)                                               $/;"	f
+mysqueeze	SOURCE/mysqueeze.c	/^char* mysqueeze (char *str) $/;"	f
+mystrcasecmp	SOURCE/mystrcmp.c	/^short int mystrcasecmp (char *str1, char *str2)$/;"	f
+mystrcmp	SOURCE/mystrcmp.c	/^short int mystrcmp(char *str1, char *str2)$/;"	f
+mystrcpy	SOURCE/mystrcpy.c	/^void mystrcpy(char *dbuf, char *sbuf)$/;"	f
+mystrlen	SOURCE/mystrlen.c	/^int mystrlen(char *str)$/;"	f
+mystrncpy	SOURCE/mystrcpy.c	/^void mystrncpy(char *dbuf, char *sbuf, int n)$/;"	f
+mystrrev	SOURCE/mystrrev.c	/^char* mystrrev (char *str)$/;"	f
+mystrspn	SOURCE/mystrspn.c	/^size_t mystrspn(char *buf1, char *buf2)$/;"	f
+mystrstr	SOURCE/mystrstr.c	/^char* mystrstr(char *p, char *q)                                               $/;"	f
+mystrtok	SOURCE/mystrtok.c	/^char *mystrtok(char *buf, char *delim)$/;"	f
+remsstr	SOURCE/remsstr.c	/^char *remsstr(char *str, char *sstr)$/;"	f
+sappend	SOURCE/sappend.c	/^char *sappend(char *str1, char *str2)$/;"	f
+snapped	SOURCE/sappend.c	/^char *snapped(char *str1, char *str2, int n)$/;"	f
+str1	SOURCE/menu.c	/^char *str1 = NULL;$/;"	v
+str2	SOURCE/menu.c	/^char *str2 = NULL;$/;"	v
+str3	SOURCE/menu.c	/^char *str3 = NULL;$/;"	v
